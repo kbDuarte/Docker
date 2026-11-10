@@ -1,0 +1,10 @@
+services:
+  web1:
+    image: minha-pagina:1.0
+    ports:
+      - "8080:80"
+
+  web2:
+    image: minha-pagina:1.0
+    ports:
+      - "8081:80"
